@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pineapple.big.apigateway.dao.RoutePredicateMapper">
+  <resultMap id="BaseResultMap" type="com.pineapple.big.apigateway.entity.RoutePredicate">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="route_id" jdbcType="VARCHAR" property="routeId" />
+    <result column="predicate_name" jdbcType="VARCHAR" property="predicateName" />
+    <result column="predicate_args" jdbcType="VARCHAR" property="predicateArgs" />
+    <result column="create_date" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="update_date" jdbcType="TIMESTAMP" property="updateDate" />
+    <result column="update_id" jdbcType="VARCHAR" property="updateId" />
+  </resultMap>
+</mapper>
